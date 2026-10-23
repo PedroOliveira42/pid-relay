@@ -1,5 +1,5 @@
 # .htaccess
-# RewriteEngine on
+RewriteEngine on
 # 
 # # Dataset descriptions: RDF for machines, HTML for people (content negotiation).
 # # Redirects all data entity URIs to the specific dataset file.
