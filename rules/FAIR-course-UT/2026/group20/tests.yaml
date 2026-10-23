@@ -1,9 +1,9 @@
 # tests.yaml
 tests:
-  - path: ont#hourlyBikeRental
+  - path: ont
     note: vocabulary terms resolve to the ontology document
     status: 303
-    location: https://raw.githubusercontent.com/PedroOliveira42/deleteme/refs/heads/main/data/hourlyBikeRentalOnt.ttl
+    location: https://raw.githubusercontent.com/PedroOliveira42/deleteme/main/data/hourlyBikeRentalOnt.ttl
 
   - path: ""
     note: the base URI redirects to the group landing page
