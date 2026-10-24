@@ -4,12 +4,12 @@ tests:
   - pid: https://w3id.org/FAIR-course-UT/2026/group20/data/london_bikes
     accept: text/turtle
     status: 303
-    location: https://raw.githubusercontent.com/rubuy-74/fair-project/refs/heads/main/data/london_bikes.ttl
+    location: https://raw.githubusercontent.com/rubuy-74/fair-project/main/data/london_bikes.ttl
 
   - pid: https://w3id.org/FAIR-course-UT/2026/group20/data/london_bikes
     accept: text/html,application/xhtml+xml
     status: 303
-    location: https://raw.githubusercontent.com/rubuy-74/fair-project/refs/heads/main/data/london_bikes1.html
+    location: https://raw.githubusercontent.com/rubuy-74/fair-project/main/data/london_bikes1.html
 
   - path: ont
     note: vocabulary terms resolve to the ontology document
@@ -25,7 +25,7 @@ tests:
     accept: text/turtle
     note: metadata records resolve to the Turtle file for machines
     status: 303
-    location: https://raw.githubusercontent.com/rubuy-74/fair-project/refs/heads/main/metadata/published/dataset.ttl
+    location: https://raw.githubusercontent.com/rubuy-74/fair-project/main/metadata/published/dataset.ttl
 
   - path: metadata
     accept: text/html,application/xhtml+xml
