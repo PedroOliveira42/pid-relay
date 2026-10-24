@@ -4,19 +4,31 @@ tests:
   - pid: https://w3id.org/FAIR-course-UT/2026/group20/data/london_bikes
     accept: text/turtle
     status: 303
-    location: https://raw.githubusercontent.com/PedroOliveira42/deleteme/refs/heads/main/data/london_bikes.ttl
+    location: https://raw.githubusercontent.com/rubuy-74/fair-project/refs/heads/main/data/london_bikes.ttl
 
   - pid: https://w3id.org/FAIR-course-UT/2026/group20/data/london_bikes
     accept: text/html,application/xhtml+xml
     status: 303
-    location: https://github.com/PedroOliveira42/deleteme/blob/main/data/london_bikes.ttl
+    location: https://raw.githubusercontent.com/rubuy-74/fair-project/refs/heads/main/data/london_bikes1.html
 
   - path: ont
     note: vocabulary terms resolve to the ontology document
     status: 303
-    location: https://raw.githubusercontent.com/PedroOliveira42/deleteme/main/data/hourlyBikeRentalOnt.ttl
+    location: https://raw.githubusercontent.com/rubuy-74/fair-project/main/data/hourlyBikeRentalOnt.ttl
     
   - path: ""
     note: the base URI redirects to the group landing page
     status: 302
-    location: https://github.com/PedroOliveira42/deleteme
+    location: https://github.com/rubuy-74/fair-project
+
+  - path: metadata
+    accept: text/turtle
+    note: metadata records resolve to the Turtle file for machines
+    status: 303
+    location: https://raw.githubusercontent.com/rubuy-74/fair-project/refs/heads/main/metadata/published/dataset.ttl
+
+  - path: metadata
+    accept: text/html,application/xhtml+xml
+    note: metadata records resolve to the repository folder for people
+    status: 303
+    location: https://github.com/rubuy-74/fair-project/tree/main/metadata/published
