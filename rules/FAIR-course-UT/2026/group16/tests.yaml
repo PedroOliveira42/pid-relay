@@ -39,6 +39,26 @@ tests:
     status: 303
     location: https://github.com/Shashank-Amanana/fairdataproject-group16-worldbankdata/blob/main/data/original/worldbank-projects-original.csv
 
+  - path: data/clean
+    accept: text/csv
+    status: 303
+    location: https://github.com/Shashank-Amanana/fairdataproject-group16-worldbankdata/raw/main/data/clean/worldbank-projects-clean.csv
+
+  - path: data/clean
+    accept: text/html
+    status: 303
+    location: https://github.com/Shashank-Amanana/fairdataproject-group16-worldbankdata/blob/main/data/clean/worldbank-projects-clean.csv
+
+  - path: metadata
+    accept: text/turtle
+    status: 303
+    location: https://github.com/Shashank-Amanana/fairdataproject-group16-worldbankdata/raw/main/metadata/dataset-public.ttl
+
+  - path: metadata
+    accept: text/html
+    status: 303
+    location: https://github.com/Shashank-Amanana/fairdataproject-group16-worldbankdata/raw/main/metadata/dataset-public.ttl
+
   - pid: https://w3id.org/FAIR-course-UT/2026/group16/
     status: 302
     location: https://github.com/Shashank-Amanana/fairdataproject-group16-worldbankdata
@@ -47,4 +67,10 @@ tests:
     status: 404
 
   - path: data/originals
+    status: 404
+
+  - path: data/cleaned
+    status: 404
+
+  - path: metadata/dataset
     status: 404
